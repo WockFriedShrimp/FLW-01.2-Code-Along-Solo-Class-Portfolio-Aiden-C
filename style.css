@@ -1,5 +1,7 @@
 /* task 10: choose 2-4 colors for your theme and add them as font or background colors*/
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
@@ -16,9 +18,22 @@ html, body {
 
 /* task 13: add at least 1 Google Font - either for the headers or paragraphs. Or both! Also, make sure it's linked in the html pages you want it used on!*/
 
+.navBar{
+  display:flex;
+  justify-content:space-around;
+}
 
 a {
-  color: #0080ff;
+  color: #d62418;
+  text-decoration:none;
+}
+a:visited{
+  color: #fee975;
+}
+
+a:hover{
+  font-size:22px;
+  color:#69f02b;
 }
 
 
@@ -30,6 +45,10 @@ a {
 
 .home {
   text-align: center;
+}
+
+.companies{
+  border:2.5px solid skyblue;
 }
 
 .student {
@@ -48,9 +67,13 @@ a {
 }
 
 h1 {
-  color: #fee975;
+  color: #20dce3;
+  font-family: 'Bebas Neue', cursive;
 }
 
 img {
   width: 400px;
 }
+
+
+
